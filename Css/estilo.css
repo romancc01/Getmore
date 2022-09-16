@@ -36,7 +36,29 @@ nav{
   
 }
 
- 
+.containerCarrusel{
+  width: 60%;
+  min-width: 300px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  padding: 30px;
+  left: 50%;
+  top: 50%;
+
+}
+.contain{
+  overflow: hidden;
+}
+
+.item{
+  float: left;
+}
+.imgCarrusel{
+  position:relative;
+  width: 100%;
+  
+}
+
 #buynow{
   margin: auto;
   display: flex;
@@ -143,6 +165,13 @@ nav{
      overflow: hidden;
   }
 
+  .carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+  
+  }
 }
 
 
@@ -188,6 +217,7 @@ header .container{
   float: left;
   width: 25vw;
   align-items: left;
+  position: relative;
   /*margin: 6px 12vh 6px;*/
   font-family: 'Apercu';
   font-size: 15px;
@@ -233,7 +263,7 @@ button{
 }
 
 button:hover{
-  background-color: #cfe062;
+  background-color:#6f7e0d;
 }
 @font-face {
     font-family: 'Apercu';
@@ -286,20 +316,46 @@ button:hover{
 }
 
 #products{
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 100px 100px;
+ 
+  overflow: hidden;
   
+  }
+
+  .precio{
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #d96321;
+  }
+
+  .nombreProd h2{
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
   }
 
   .hidden{
     display: none;
   }
 
-  #products{
-    position: relative;
+  #products {
+    text-align: center;
+  }
+  #products .elementosCar{
+    overflow: hidden;
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center
   }
   .prev, .next {
     cursor: pointer;
@@ -319,7 +375,6 @@ button:hover{
 .carousel{
   display: flex;
   align-items: center;
-  padding-bottom: 100px;
   justify-content: center;
 
 }
@@ -511,7 +566,7 @@ font-family: 'Apercu';
 
 
 .ver-productos{
-  align-items: center;
+text-align: center;  
 }
 
 .elementos {
@@ -680,6 +735,12 @@ font-family: 'Apercu';
     margin-bottom: 100px;
     overflow: hidden;
   }
+  .cardx{
+    width: 100%;
+    margin-bottom: 100px;
+    text-align: center;
+    overflow: hidden;
+  }
  
   .card-header{
     text-align: center;
@@ -728,12 +789,39 @@ font-family: 'Apercu';
    
 }
 
-.imagen{
 
-  width: 50%;
-
-  padding:100px;
+.swiper-button-prev{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20%;
+  width: 50px;
+  height: 50px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #d96321;
+}
+.swiper-button-next{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20%;
+  width: 50px;
+  height: 50px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #d96321;
+}
+.swiper-button-prev img{
+  transform: rotate(180deg);
 }
 
+.swiper-button-next:hover{
+  background-color: #6f7e0d;
+}
+.swiper-button-prev:hover{
+  background-color: #6f7e0d;
 
-
+}

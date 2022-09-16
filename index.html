@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="Css/estilo.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <title>HOMEPAGE-DEV</title>
@@ -30,7 +29,7 @@
                         <ul>
                             <li>
                                 <div class="dropdown">
-                                    <span class="imagen-texto">Productos <i class="fa-sharp fa-solid fa-chevron-down"></i></span>
+                                    <span class="imagen-texto">Productos  <i style="padding:5px"> <img src="./Assets/vector.png"></i></span>
                                     <div class="dropdown-content">
                                     <div>
                                         <ul>
@@ -63,7 +62,7 @@
     
         <!--Sección 1 -->
         <section  id ="hero">
-            <div class="logo"><img src="./Assets/group.png" alt=""></div>
+            <div class="logo"><img src="./Assets/group.png" alt="pelota de tenis en cancha"></div>
                 <h1 class="encabezado arriba-comprar">El MEJOR DEPORTE</h1>
                 <h2 >Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
                 <button> COMPRAR AHORA</button>
@@ -72,32 +71,32 @@
         <!--Fin Sección 1 -->
         
         <!--Sección 2 -->
-    
-        <section id="products" class="container"> 
-            
-            <div class="carousel">
-                <div class="card-wrapper swiper-wrapper">
-                    <div class="card swiper-slide">
-                        <div class="image-content">
-                            <span class="overlay"></span>
-
-                            <div class="card-image">
-                                <img src="./Assets/Mask Group_5.png" alt="" class="card-img">
-                            </div>
-                        </div>
-
-                        <div class="card-content">
-                            <h2 class="name">Wilson Championship Extra Duty Tennis Balls 3 pk</h2>
-                            <p class="description">$22.09</p>
-                        </div>
-                    </div>
-                </div>
-                
-            <div class="swiper-button-next swiper-navBtn"></div>
-            <div class="swiper-button-prev swiper-navBtn"></div>
-            <div class="swiper-pagination"></div>
+        <section class="carrusel">
+            <div class="containerCarrusel">
+                <div class="imgCarrusel"></div>
             </div>
-        
+        </section>
+
+        <section id="products" class="contain"> 
+            <div class="elementosCar">
+                <a href="#">
+                    <div class="swiper-button-next swiper-navBtn item">
+                        <img src="./Assets/Vector_3.png" alt="Botón izquierda">
+                    </div>
+                </a>
+    
+                <div class="carousel item">
+       
+                    
+                </div>
+                <a href="#">
+                    <div class="swiper-button-prev swiper-navBtn item">
+                        <img src="./Assets/Vector_3.png" alt="Botón derecha">
+                    </div>
+                </a>
+            </div>
+
+
             
             <div id="ver-productos">    
                 <button>VER TODOS</button>
@@ -140,22 +139,22 @@
                     <div class="mejoresProd">
                         <div class="row">
                             <div class="card">
-                                <div class="card-header"><img src="./Assets/Group 349.png" alt=""></div>
+                                <div class="card-header"><img src="./Assets/Group 349.png" alt=" Wilson Championship Extra Duty Tennis Balls 3 pk"></div>
                                 <div class="card-body">Wilson Championship Extra Duty Tennis Balls 3 pk</div>
                             </div>
             
                             <div class="card">
-                                <div class="card-header"><img src="./Assets/Group 18.png" alt=""></div>
+                                <div class="card-header"><img src="./Assets/Group 18.png" alt="Wilson Tour Slam Lite Tennis Racquet"></div>
                                 <div class="card-body">Wilson Tour Slam Lite Tennis Racquet</div>
                             </div>
             
                             <div class="card">
-                                <div class="card-header"><img src="./Assets/Group 351.png" alt=""></div>
+                                <div class="card-header"><img src="./Assets/Group 351.png" alt="Wilson Starter 3 Balls"></div>
                                 <div class="card-body">Wilson Starter 3 Balls</div>
                             </div>
             
                             <div class="card">
-                                <div class="card-header"><img src="./Assets/Group 349_2.png" alt=""></div>
+                                <div class="card-header"><img src="./Assets/Group 349_2.png" alt="Nike Swoosh Wristbands"></div>
                                 <div class="card-body">Nike Swoosh Wristbands</div>
                             </div>
             
@@ -165,66 +164,7 @@
             </div>
 
         </section>
-        <!--<section id="mejores">
-            <div class="divBest containerx">
-                <div class="imagenJ">
-                    <img src="./Assets/Rectangle 37.png" alt="">
-                </div>
-                <div class="mejoresP">
-                    <div class="productB">
-                        <img src="./Assets/Group 349.png" alt="">
-                    </div>
-                    <div class="productB"><img src="./Assets/Group 18.png" alt=""></div>
-                    <div class="productB"><img src="./Assets/Group 351.png" alt=""></div>
-                    <div class="productB"><img src="./Assets/Group 349_2.png" alt=""></div>
-                </div>
-            </div>
-        </section>-->
-<!--</section>
-          
-        <section id="bestSellers">
-            <div class="container">
-                <div class="img-container"></div>
-                <div class="ImgBestProducts">
-                    <div class="containerc">
-                       <div class="bestProducts ">
-                        <div class="card">
-                            <div class="imgCarta">
-                            <img src="./Assets/Group 349.png"></div>
-                            <div class="name"></div>
-                            <div class="precio"></div>
-                        </div>
-                    </div>
-                    <div class="bestProducts">
-                        <div class="card">
-                            <div class="imgCarta">
-                            <img src="./Assets/Group 349.png"></div>
-                            <div class="name"></div>
-                            <div class="precio"></div>
-                        </div>
-                    </div>
-                    <div class="bestProducts">
-                        <div class="card">
-                            <div class="imgCarta">
-                            <img src="./Assets/Group 349.png"></div>
-                            <div class="name"></div>
-                            <div class="precio"></div>
-                        </div>
-                    </div>
-                    <div class="bestProducts">
-                        <div class="card">
-                            <div class="imgCarta">
-                            <img src="./Assets/Group 349.png"></div>
-                            <div class="name"></div>
-                            <div class="precio"></div>
-                        </div>
-                    </div>
-                    </div>
-                    
-                    </div>
-            </div>
-                
-        </section>-->
+
                 
         <!--Fin Sección 4 -->
         
@@ -245,19 +185,19 @@
                     <img src="./Assets/Group 226.png"
                     srcset="./Assets/Group 226@2x.png 2x,
                         ./Assets/Group 226@3x.png 3x"
-                    class=""  alt="">
+                    class=""  alt="icono facebook">
                 </a>
                 <a href="#">
                     <img src="./Assets/Page-1.png"
                     srcset="./Assets/Page-1@2x.png 2x,
                         ./Assets/Page-1@3x.png 3x"
-                    class=""  alt="">
+                    class=""  alt="icono instagram">
                 </a>
                 <p>&copy; DEV. All Rights Reserved. <a href="#" >Privacy Policy</a>, <a href="#">Term & Conditions</a></p>
             </div>
 
             <div class="icono">
-                <img src="./Assets/group_2.png" alt="">
+                <img src="./Assets/group_2.png" alt="imagen pelota de tenis">
             </div>
         </footer>
     
