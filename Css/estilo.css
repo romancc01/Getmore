@@ -172,6 +172,17 @@ nav{
     flex-flow: column;
   
   }
+
+  .row{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column;
+    align-items: center;
+    flex-wrap:wrap ;
+    padding: 100px 0px;
+   
+  }
 }
 
 
@@ -440,7 +451,7 @@ button:hover{
 }
 
 
-#categories .containerx h3{
+#categories .containerCat h3{
   font-size: 40px;
   font-weight: bold;
   font-stretch: normal;
@@ -455,7 +466,7 @@ button:hover{
 }
 
 
-.containerx{
+.containerCat{
   margin: 0;
   width: 100vw;
   overflow-x: hidden;
@@ -463,11 +474,11 @@ button:hover{
 
 
 
-.float-containerx{
+.float-containerCat{
 float: left;
 overflow: hidden ;
 }
-.float-containerx div{
+.float-containerCat div{
 width: 100vw;
 height: 100vh;
 color: #FFF;
@@ -518,7 +529,7 @@ font-family: 'Apercu';
     overflow: hidden;
   }
   
-  .float-containerx div{
+  .float-containerCat div{
     padding: 0;
     margin: 0;
     width: 33vw;
@@ -719,10 +730,12 @@ text-align: center;
     margin:0px;
     padding: 0;
   }
+
   .row{
     overflow: hidden;
     display: flex;
     justify-content: space-around;
+    
     flex-wrap:wrap ;
     padding: 100px 0px;
    
