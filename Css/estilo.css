@@ -1,0 +1,739 @@
+* { 
+
+    box-sizing: border-box;
+    
+}
+
+html{
+  max-width: 100%;
+  scroll-behavior: smooth ;
+}
+
+body { 
+  margin: 0;
+  width:100%;
+  background-color: #ffffff;
+  font-family: 'Apercu';
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
+nav{
+  display: flex;
+  justify-content:space-around ;
+  flex-direction: column;
+}
+
+.jugador {
+  padding: 100px;
+  width: 100%;
+  background-image: url(../Assets/Rectangle\ 37.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+ 
+#buynow{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#fff;
+  font-size: 80px;
+  text-align: center;
+  flex-direction: column;
+  background-image:url("../Assets/mask group_8.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   overflow: hidden;
+}
+
+@media (max-width:600px) {
+  header 
+  {
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+  }
+  header .container
+  {
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+  }
+  .card{
+    width: 100vw;
+  }
+
+  .mejoresProd{
+    margin: 0;
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  nav{
+    display: flex;
+    flex-direction: column ;
+  }
+  
+  .float-contenedor div{
+    padding: 0;
+    margin: 0;
+    width: 33vw;
+    height: 100vh;
+    background-color: #2980B9;
+    color: #FFF;
+    text-align: center;
+    line-height: 150px;
+    font-size: 20px;
+    font-family: Arial;
+    
+  }
+
+
+
+   #ultimo .float-containerbest{
+    padding: 0;
+    margin: 0;
+    
+    margin-top: 100px;
+    background-position: center center;
+    
+  }
+ 
+  #hero h2{
+    width: 80vw;
+    margin: auto;
+    font-size: 21px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+  }
+
+  .jugador{
+    width: 100%;
+    background-image:url("../Assets/Rectangle\ 37.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+  }
+  
+  #buynow{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    font-size: 40px;
+    text-align: center;
+    flex-direction: column;
+    background-image:url("../Assets/mask group_8.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     overflow: hidden;
+  }
+
+}
+
+
+
+
+
+.contenedor{
+  margin: 0;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.float-contenedor{
+  float: left;
+  overflow: hidden ;
+}
+.float-contenedor div{
+  height: 100vh;
+  width: 100vw;
+  background-color: #2980B9;
+  color: #FFF;
+  text-align: center;
+  line-height: 150px;
+  font-size: 20px;
+  font-family: Arial;
+}
+.float-contenedor div{
+    margin: 0;
+}
+
+
+
+header .container{
+  display: flex;
+  flex-direction: column;
+}
+
+.menu{
+  margin-top:5vh ;
+}
+
+.productos{
+  float: left;
+  width: 25vw;
+  align-items: left;
+  /*margin: 6px 12vh 6px;*/
+  font-family: 'Apercu';
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+
+.contacto{
+  float: right;
+  width: 25vw;
+  height: 19px;
+ /* margin: 6px 12vh 6px;*/
+  font-family: 'Apercu';
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.navegacion{
+  display: inline-block;
+}
+
+button{
+  background-color: #d96321;
+  margin-bottom: 50px;
+  color: #ffffff;
+  flex-grow: 0;
+  padding: 15px 100px 15px 100px;
+  border:0px;
+  border-radius: 24px;
+  font-weight: bold;
+}
+
+button:hover{
+  background-color: #cfe062;
+}
+@font-face {
+    font-family: 'Apercu';
+    src: url(../Fonts/Apercu.ttf);
+}
+
+.imagen-texto{
+  color:#ffffff;
+  font-family: 'Apercu';
+}
+
+.container{
+  max-width: 4320px;
+}
+
+.logo{
+  margin-top: 60px;
+  left : 40px;
+}
+
+#hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-image:url("../Assets/Mask Group_4.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+
+
+
+#hero h1{
+  color: #fff;
+}
+
+#hero h2{
+  height: 55px;
+  margin: 30px 299px 45px 322px;
+  font-size: 21px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.48;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+#products{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px 100px;
+  
+  }
+
+  .hidden{
+    display: none;
+  }
+
+  #products{
+    position: relative;
+  }
+  .prev, .next {
+    cursor: pointer;
+    
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    background-color: #d96321;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 45;
+    user-select: none;
+  }
+
+.carousel{
+  display: flex;
+  align-items: center;
+  padding-bottom: 100px;
+  justify-content: center;
+
+}
+
+#bestSellers{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80vh;
+  overflow: hidden;
+}
+
+#mejores{
+  padding: 20px;
+}
+#mejores .divBest{
+  width: 100vw;
+}
+
+#bestSellers .container{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 200px;
+}
+
+#bestSellers .containerc{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+}
+#bestSellers .ImgBestProducts{
+  
+  width: 50%;
+  text-align: center;
+  padding: 0px 30px;
+}
+
+#bestSellers .img-container{
+  width: 50vw;
+  height: 100vh;
+  background-image:url("../Assets/Rectangle\ 37.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+}
+
+.fondo{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+
+}
+#categories {
+  overflow: hidden;
+}
+
+
+#categories .containerx h3{
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.78;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+
+}
+
+
+.containerx{
+  margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+
+
+.float-containerx{
+float: left;
+overflow: hidden ;
+}
+.float-containerx div{
+width: 100vw;
+height: 100vh;
+color: #FFF;
+text-align: center;
+line-height: 1000px;
+font-size: 40px;
+font-family: 'Apercu';
+}
+.float-container div{
+  margin: 0;
+}
+
+#ultimo{
+  overflow: hidden;
+  width: 100%;
+}
+
+#ultimo .float-containerbest {
+  float: left; 
+  overflow: hidden ;
+  padding: 100px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+  
+
+.jugador{
+  padding: 100px;
+  width: 50%;
+  background-image:url("../Assets/Rectangle\ 37.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width:1200px) {
+  header 
+  {
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+  }
+  .card{
+    width: 50%;
+  }
+  .mejoresProd{
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .float-containerx div{
+    padding: 0;
+    margin: 0;
+    width: 33vw;
+    height: 100vh;
+    color: #FFF;
+    text-align: center;
+    line-height: 1000px;
+    font-size: 40px;
+    font-family: 'Apercu';
+    }
+
+    .jugador{
+        padding: 100px;
+        width: 50vw;
+        background-image:url("../Assets/Rectangle\ 37.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 100px 0px;
+        height: 800px;
+        
+      }
+}
+
+
+
+
+.raqueta{
+  background-image:url("../Assets/mask group.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pelota{
+  background-image:url("../Assets/mask group_2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.accesorio{
+  background-image:url("../Assets/mask group_3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.ver-productos{
+  align-items: center;
+}
+
+.elementos {
+  min-width: 250px;
+  text-align: center;
+  position: relative;
+}
+
+.elementos.logo{
+  position: absolute;
+  transform: translate(-50% - 50%);
+}
+
+.inicial {
+  flex:1;
+}
+
+
+
+
+  .Vector {
+    width: 100%;
+    height: 33px;
+    padding: 5px 0 5px 0px;
+    text-align: center;
+    background-color: #cfe062;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Envo-gratis-en-todo-mxico {
+    width: 100%;
+    height: 19px;
+    text-align: center;
+    font-family: 'Apercu';
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6f7e0d;
+  }
+
+  img.Mask-Group {
+    width: 100%;
+    height: 626px;
+    object-fit: contain;
+  }
+
+  img.Vector {
+    width: 100%;
+    height: 223px;
+    flex-grow: 0;
+    object-fit: contain;
+    background-color: #cfe062;
+  }
+
+  header li{
+    list-style: none;
+  }
+  header a{
+    text-decoration: none;
+  }
+  
+
+  .el-mejor-deporte {
+    width: 967px;
+    height: 78px;
+    margin: 86px 50px 30px 71px;
+    font-family: 'Apercu';
+    font-size: 80px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.89;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+  }
+
+
+  /*menú productos*/
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d0d0d0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /*fin menú productos*/
+
+  /* Size Fuentes */
+
+  .arriba-comprar{
+    font-family: 'Apercu';
+    font-size: 80px;
+    font-weight: bold;
+  }
+
+ 
+
+  .textos {
+    font-family: 'Apercu';
+    font-size: 15px;
+  }
+
+  
+
+
+  
+  footer{
+    background-color: #cfe062;
+    text-align: center;
+    padding: 100px;
+    position: relative;
+  }
+
+  footer a{
+    color :#6f7e0d;
+  }
+  footer p{
+    margin:0;
+    color :#6f7e0d;
+
+
+  }
+  
+  footer .icono{
+    position: absolute;
+    margin: 0;
+    bottom: 70px;
+    right: 0;
+  }
+
+ .card1{
+    margin:0px;
+    padding: 0;
+  }
+  .row{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap ;
+    padding: 100px 0px;
+   
+  }
+  .card img{
+    width: 100%;
+  }
+  
+  .card{
+    width: 50%;
+    margin-bottom: 100px;
+    overflow: hidden;
+  }
+ 
+  .card-header{
+    text-align: center;
+  }
+  .card-body{
+    text-align: center;
+    font-family: Apercu;
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+  }
+  footer img{
+    padding: 0px 20px 20px;
+  }
+
+
+  .contenedor1{
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    display: inline-flex;
+  }
+  .float-container{
+    float: left;
+    overflow: hidden ;
+    box-sizing: border-box;
+  }
+  .float-container div{
+    width: 100vw;
+    background-color: #2980B9;
+    color: #FFF;
+    text-align: center;
+    line-height: 150px;
+    font-size: 20px;
+    font-family: 'Apercu';
+  }
+
+  .container-best {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.imagen{
+
+  width: 50%;
+
+  padding:100px;
+}
+
+
+
