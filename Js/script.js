@@ -5,7 +5,7 @@ jQuery(document).ready(function () {
         let carta='';
         if (i< 3){
             carta = `
-            <div class="cardx">
+            <div class="cardDinamica">
                 <div class="imgCarta">
                 <img src="`+v.url+`"></div>
                 <div class="nombreProd"><h2 class="name">`+v.nombre+`</h2>
@@ -16,7 +16,7 @@ jQuery(document).ready(function () {
         }
         else{
             carta = `
-            <div class="cardx hidden">
+            <div class="cardDinamica hidden">
                 <div class="imgCarta">
                 <img src="`+v.url+`"></div>
                 <div class="nombreProd"></div>

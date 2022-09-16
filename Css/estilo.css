@@ -353,6 +353,7 @@ button:hover{
   #products .elementosCar{
     overflow: hidden;
     display: flex;
+    height: 90vh;
     padding-top: 100px;
     justify-content: center;
     align-items: center
@@ -735,7 +736,7 @@ text-align: center;
     margin-bottom: 100px;
     overflow: hidden;
   }
-  .cardx{
+  .cardDinamica{
     width: 100%;
     margin-bottom: 100px;
     text-align: center;
