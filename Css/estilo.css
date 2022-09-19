@@ -118,9 +118,6 @@ nav{
   }
 
 
-    .float-containerbest{
-      padding: 0px;
-    }
    #ultimo .float-containerbest{
     padding: 0 !important;
     margin: 0;
@@ -566,6 +563,19 @@ font-family: 'Apercu';
         height: 800px;
         
       }
+
+      #hero h2 {
+        height: 55px;
+        /* margin: 30px 299px 45px 322px; */
+        font-size: 21px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.48;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+    }
 }
 
 
