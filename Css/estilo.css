@@ -118,13 +118,14 @@ nav{
   }
 
 
-
+    .float-containerbest{
+      padding: 0px;
+    }
    #ultimo .float-containerbest{
-    
-    padding: 0;
+    padding: 0 !important;
     margin: 0;
     float: right;
-    margin-top: 100px;
+   
     background-position: center center;
     
   }
@@ -505,14 +506,11 @@ font-family: 'Apercu';
   width: 100%;
 }
 
-.float-containerbest{
-  display: block;
-  color: white;
-}
+
 #ultimo .float-containerbest {
   float: left; 
   overflow: hidden ;
-  padding: 100px 100px;
+  padding: 100px ;
   display: flex;
   flex-wrap: wrap;
   
