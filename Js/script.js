@@ -28,5 +28,4 @@ jQuery(document).ready(function () {
     jQuery('.carousel').append(carta);
     });
     
-    $('.float-containerbest').after(content);
 });
