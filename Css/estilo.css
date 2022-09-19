@@ -120,14 +120,17 @@ nav{
 
 
    #ultimo .float-containerbest{
+    
     padding: 0;
     margin: 0;
-    
+    float: right;
     margin-top: 100px;
     background-position: center center;
     
   }
  
+
+
   #hero h2{
     width: 80vw;
     margin: auto;
@@ -186,7 +189,11 @@ nav{
 
 
 
-
+  .containerCat::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
 
 .contenedor{
   margin: 0;
@@ -469,7 +476,10 @@ button:hover{
   margin: 0;
   width: 100vw;
   overflow-x: hidden;
+  display: block;
 }
+
+
 
 
 
@@ -495,6 +505,10 @@ font-family: 'Apercu';
   width: 100%;
 }
 
+.float-containerbest{
+  display: block;
+  color: white;
+}
 #ultimo .float-containerbest {
   float: left; 
   overflow: hidden ;
@@ -507,7 +521,7 @@ font-family: 'Apercu';
 
 .jugador{
   padding: 100px;
-  width: 50%;
+  width: 100vw;
   background-image:url("../Assets/Rectangle\ 37.png");
   background-repeat: no-repeat;
   background-size: cover;
