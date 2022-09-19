@@ -131,7 +131,6 @@ nav{
 
   #hero h2{
     width: 80vw;
-    margin: auto;
     font-size: 21px;
     font-weight: bold;
     font-stretch: normal;
@@ -564,18 +563,7 @@ font-family: 'Apercu';
         
       }
 
-      #hero h2 {
-        height: 55px;
-        /* margin: 30px 299px 45px 322px; */
-        font-size: 21px;
-        font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.48;
-        letter-spacing: normal;
-        text-align: center;
-        color: #fff;
-    }
+    
 }
 
 
